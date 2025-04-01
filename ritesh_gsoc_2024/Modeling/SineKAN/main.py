@@ -1,4 +1,4 @@
-import torchtext; torchtext.disable_torchtext_deprecation_warning()
+# import torchtext; torchtext.disable_torchtext_deprecation_warning()
 import pandas as pd
 import numpy as np
 import random

@@ -2,7 +2,8 @@ from collections import Counter, OrderedDict
 from itertools import cycle
 import re
 import random
-from torchtext.vocab import vocab
+# from torchtext.vocab import vocab
+from Vocab import Vocab as vocab
 from tqdm import tqdm
 import warnings
 
