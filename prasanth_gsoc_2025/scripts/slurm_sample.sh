@@ -7,9 +7,9 @@
 #SBATCH -t 48:00:00
 #SBATCH -n 1
 #SBATCH -c 128
-#SBATCH --output="/pscratch/sd/r/ritesh11/ew_logs/slurm-%j.out"
-#SBATCH --error="/pscratch/sd/r/ritesh11/ew_logs/slurm-%j.out"
-#SBATCH --mail-user=ritesh.slurm@gmail.com
+#SBATCH --output="/pscratch/sd/p/pr4santh/slurm_logs/slurm-%j.out"
+#SBATCH --error="/pscratch/sd/p/pr4santh/slurm_logs/slurm-%j.out"
+#SBATCH --mail-user=prasanthnaidukaraka@gmail.com
 #SBATCH --mail-type=ALL
 
 module load pytorch
